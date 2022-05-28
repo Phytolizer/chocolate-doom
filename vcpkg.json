@@ -1,0 +1,11 @@
+{
+	"name": "chocolate-doom",
+	"version-semver": "0.1.0",
+	"dependencies": [
+		{
+			"name": "fmt",
+			"version>=": "8.1.1"
+		}
+	],
+	"builtin-baseline": "8cfe2589b7060a9c1e131f31822aca3fa35ff3cf"
+}

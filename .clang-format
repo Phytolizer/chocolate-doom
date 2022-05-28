@@ -1,0 +1,8 @@
+BasedOnStyle: LLVM
+PointerAlignment: Left
+IndentWidth: 4
+TabWidth: 4
+UseTab: AlignWithSpaces
+IndentCaseLabels: true
+AllowShortFunctionsOnASingleLine: Empty
+IncludeBlocks: Regroup
