@@ -5,6 +5,10 @@
 		{
 			"name": "fmt",
 			"version>=": "8.1.1"
+		},
+		{
+			"name": "sdl2",
+			"version>=": "2.0.22"
 		}
 	],
 	"builtin-baseline": "8cfe2589b7060a9c1e131f31822aca3fa35ff3cf"
