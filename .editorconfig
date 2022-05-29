@@ -6,7 +6,7 @@ trim_trailing_whitespace = true
 charset = utf-8
 tab_width = 4
 
-[*.{c,h}]
+[*.{cpp,hpp}]
 indent_style = tab
 
 [.clangd]

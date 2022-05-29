@@ -14,10 +14,12 @@ add_executable(
     "src/stat.cpp"
     "src/system/video.cpp"
     "src/dehacked/strings.cpp"
+    "src/miscellaneous/config.cpp"
 )
 target_include_directories(chocolate-doom PUBLIC include "${PROJECT_BINARY_DIR}/include")
-target_link_libraries(chocolate-doom fmt::fmt SDL2::SDL2)
+target_link_libraries(chocolate-doom fmt::fmt SDL2::SDL2main SDL2::SDL2-static)
 target_compile_features(chocolate-doom PRIVATE cxx_std_20)
 set(PROJECT_NAME_PRETTY "Chocolate Doom")
+set(PROJECT_NAME_SIMPLE "chocolate-doom")
 
 configure_file(cmake/config.hpp.cin include/config.hpp)

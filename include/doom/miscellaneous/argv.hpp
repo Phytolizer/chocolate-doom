@@ -11,6 +11,7 @@ extern std::vector<std::string> args;
 extern std::filesystem::path exedir;
 
 bool exists(std::string_view arg);
+std::size_t check(std::string_view arg);
 void setExeDir();
 
 } // namespace doom::misc::argv
